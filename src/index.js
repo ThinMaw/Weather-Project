@@ -98,4 +98,4 @@ function getForecast(city) {
 let searchElement = document.querySelector("#search-form");
 searchElement.addEventListener("submit", shCity);
 
-cityUrl("Yangon");
+cityUrl("Bangkok");
