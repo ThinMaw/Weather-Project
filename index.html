@@ -1,37 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Playwrite+DE+Grund&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="src/styles.css" />
-    <title>Weather app</title>
-  </head>
-  <body>
-    <div class="bg-img">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playwrite+DE+Grund&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="src/styles.css" />
+  <title>Weather app</title>
+</head>
+
+<body>
+  <div class="bg-img">
     <div class="search-form">
       <form>
         <input type="search" placeholder="Enter a City......" class="enter-search-place" />
         <input type="submit" value="Search" class="search-submit" />
       </form>
     </div>
-    <div>
-        <h1>&#128205 Paris</h1>
-        <div>Tuesday, September 24, 2024</div>
-        <div>21°C</div>
-        <div>⛅</div>
-        <div>Humidity 66%</div>
-        <div>Wind 5km/h</div>
-        <div>light rain</div>
+    <div class="main-body">
+      <div class="sec-body">
+        <div>
+          <h1>&#128205 <span class="city">Paris</span></h1>
+          <div class="time">Tuesday, September 24, 2024</div>
+          <div class="temp">21°C</div>
+        </div>
+        <div class="icon">⛅</div>
+      </div>
+      <div class="third-body">
+        <div class="hum">Humidity 66%</div>
+        <div class="wind">Wind 5km/h</div>
+        <div class="forcast">light rain</div>
+      </div>
     </div>
-    </div>
-  </body>
-  <script src="src/index.js"></script>
+    <footer class="note">
+      This project was coded by Thin Maw (Myanmar), is open-sourced on GitHub and hosted on Netlify.
+    </footer>
+  </div>
+</body>
+<script src="src/index.js"></script>
+
 </html>

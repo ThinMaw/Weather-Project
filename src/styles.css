@@ -1,7 +1,6 @@
 .bg-img {
-  font-family: "Oswald", sans-serif;
+  font-family: "Playwrite DE Grund", system-ui;
   font-optical-sizing: auto;
-  font-weight: 900;
   font-style: normal;
   background-image: url(bg\ img.jpg);
   background-position: center;
@@ -11,31 +10,113 @@
   width: 100%;
   text-align: center;
 }
+
 .search-form {
-  background-color: white;
-  opacity: 80%;
+  background-color: rgba(255, 255, 255, 0.6);
   border: none;
-  font-weight: 900;
   border-radius: 20px;
   width: 50%;
   display: inline-block;
-  margin: 50px auto;
+  margin: 50px auto 30px auto;
   padding: 30px 20px;
 }
+
 .enter-search-place {
   padding: 23px;
   width: 60%;
-  font-size: 30px;
-  font-weight: 500;
+  font-size: 25px;
   border-radius: 15px;
   margin: 0 50px 0 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: none;
 }
+
+.enter-search-place:focus {
+  border: none;
+  outline: none;
+}
+
 .search-submit {
   padding: 20px;
   width: 25%;
-  font-size: 30px;
-  font-weight: 100;
+  font-size: 25px;
   border-radius: 15px;
   border: none;
   background-color: #3095fd;
+}
+
+.main-body {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 60%;
+  display: inline-block;
+  margin: 50px auto 20px auto;
+  padding: 0px 30px 40px 30px;
+  border-radius: 20px;
+}
+
+.sec-body {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 20px;
+}
+
+.third-body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.city {
+  font-size: 80px;
+  font-weight: 500;
+  margin: auto;
+  padding: auto;
+}
+
+.time {
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.temp {
+  font-size: 100px;
+  font-weight: 900;
+}
+
+.icon {
+  font-size: 260px;
+}
+
+.hum {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  box-shadow: 3px 3px 3px black;
+}
+
+.wind {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  box-shadow: 3px 3px 3px black;
+}
+
+.forcast {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  box-shadow: 3px 3px 3px black;
+}
+
+.note {
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 18px;
+  color: white;
+  border-radius: 40px;
+  display: inline-block;
+  margin: 10px auto 30px auto;
+  padding: 20px 20px;
+  width: 60%;
 }
