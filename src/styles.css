@@ -1,6 +1,41 @@
-body {
+.bg-img {
   font-family: "Oswald", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 200;
+  font-weight: 900;
   font-style: normal;
+  background-image: url(bg\ img.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+.search-form {
+  background-color: white;
+  opacity: 80%;
+  border: none;
+  font-weight: 900;
+  border-radius: 20px;
+  width: 50%;
+  display: inline-block;
+  margin: 50px auto;
+  padding: 30px 20px;
+}
+.enter-search-place {
+  padding: 23px;
+  width: 60%;
+  font-size: 30px;
+  font-weight: 500;
+  border-radius: 15px;
+  margin: 0 50px 0 0;
+}
+.search-submit {
+  padding: 20px;
+  width: 25%;
+  font-size: 30px;
+  font-weight: 100;
+  border-radius: 15px;
+  border: none;
+  background-color: #3095fd;
 }
