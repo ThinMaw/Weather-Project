@@ -8,31 +8,33 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playwrite+DE+Grund&display=swap"
     rel="stylesheet">
+  <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
   <link rel="stylesheet" href="src/styles.css" />
   <title>Weather app</title>
 </head>
 
 <body>
   <div class="bg-img">
-    <div class="search-form">
+    <div class="search-form" id="search-form">
       <form>
-        <input type="search" placeholder="Enter a City......" class="enter-search-place" />
-        <input type="submit" value="Search" class="search-submit" />
+        <input type="search" placeholder="Enter a City......" required class="enter-search-place"
+          id="enter-search-place" />
+        <input type="submit" value="Search" class="search-submit" id="search-submit" />
       </form>
     </div>
     <div class="main-body">
       <div class="sec-body">
         <div>
-          <h1>&#128205 <span class="city">Paris</span></h1>
-          <div class="time">Tuesday, September 24, 2024</div>
-          <div class="temp">21°C</div>
+          <h1>&#128205 <span class="city" id="city"></span></h1>
+          <div class="time" id="time"></div>
+          <div class="temp"><span id="temp"></span>°C</div>
         </div>
-        <div class="icon">⛅</div>
+        <div class="icon" id="icon"></div>
       </div>
       <div class="third-body">
-        <div class="hum">Humidity 66%</div>
-        <div class="wind">Wind 5km/h</div>
-        <div class="forcast">light rain</div>
+        <div class="hum">Humidity <span id="hum"></span>%</div>
+        <div class="wind">Wind <span id="wind"></span>km/h</div>
+        <div class="forcast" id="forcast"></div>
       </div>
     </div>
     <footer class="note">

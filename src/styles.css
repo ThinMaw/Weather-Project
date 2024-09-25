@@ -73,7 +73,7 @@
 }
 
 .time {
-  font-size: 25px;
+  font-size: 50px;
   font-weight: 300;
 }
 
@@ -82,8 +82,14 @@
   font-weight: 900;
 }
 
-.icon {
-  font-size: 260px;
+
+
+.weather-app-icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  border-radius: 8px;
 }
 
 .hum {
